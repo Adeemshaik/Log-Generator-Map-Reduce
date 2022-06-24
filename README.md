@@ -5,7 +5,6 @@
 In this project, we will explore the Hadoop File System and execute MapReduce programs in it - first on 
 out local machine and then on AWS EMR clusters.
 
-AWS EMR deployment process here: [YouTube](https://youtu.be/f6GjRRMHE-Y)
 
 As a starting point, we have been given a code snippet to generate custom log files of a specified format 
 along with an application configuration to tune our log file generator output. The program also injects a 
@@ -46,7 +45,7 @@ git clone https://github.com/niharjoshi/LogFileGenerator.git
 ```
 
 Generate a log file through the provided log file generator (invoke the main method, no system arguments required):
-[GenerateLogData.scala](https://github.com/niharjoshi/LogFileGenerator/blob/main/src/main/scala/GenerateLogData.scala)
+[GenerateLogData.scala](https://github.com/AdeemShaik/LogFileGenerator/blob/main/src/main/scala/GenerateLogData.scala)
 
 The log file will be generated in the **log/** folder at the project root.
 
@@ -106,7 +105,6 @@ https://hortonworks.com/wp-content/uploads/2012/03/Tutorial_Hadoop_HDFS_MapReduc
 
 ### Run on an AWS EMR cluster
 
-As mentioned before, the steps to running the JAR file on AWS EMR can be found [here](https://youtu.be/f6GjRRMHE-Y).
 
 ## MapReduce Tasks In-depth
 
@@ -165,7 +163,7 @@ For this task, our reducer performs the following actions:
 
 #### Sample output
 
-Task 1 sample output [here](https://github.com/niharjoshi/LogFileGenerator/blob/main/docs/task1_output.csv).
+Task 1 sample output [here](https://github.com/Adeemshaik/Log-Generator-Map-Reduce/blob/main/docs/task1_output.csv).
 ```
 DEBUG_12:00:12	3
 DEBUG_12:00:6	4
@@ -232,7 +230,7 @@ For this task, our reducer performs the following actions:
 
 #### Sample output
 
-Task 2 sample output [here](https://github.com/niharjoshi/LogFileGenerator/blob/main/docs/task2_output.csv).
+Task 2 sample output [here](https://github.com/Adeemshaik/Log-Generator-Map-Reduce/blob/main/docs/task2_output.csv).
 ```
 12:00:11 25
 12:00:4	 6
@@ -289,7 +287,7 @@ For this task, our reducer performs the following actions:
 
 #### Sample output
 
-Task 3 sample output [here](https://github.com/niharjoshi/LogFileGenerator/blob/main/docs/task3_output.csv).
+Task 3 sample output [here](https://github.com/Adeemshaik/LogFileGenerator/blob/main/docs/task3_output.csv).
 ```
 ERROR 150
 DEBUG 761
@@ -349,23 +347,10 @@ For this task, our reducer performs the following actions:
 
 #### Sample output
 
-Task 4 sample output [here](https://github.com/niharjoshi/LogFileGenerator/blob/main/docs/task4_output.csv).
+Task 4 sample output [here](https://github.com/Adeemshaik/Log-Generator-Map-Reduce/blob/main/docs/task4_output.csv).
 ```
 DEBUG 56
 INFO  45
 ERROR 69
 WARN  51
 ```
-
-## Checklist
-- [x] All 4 MapReduce tasks
-- [x] In-depth documentation
-- [x] Successful AWS EMR deployment
-- [x] YouTube video
-- [x] More than 5 unit tests
-- [x] Comments and explanations
-- [x] Logging statements
-- [x] No hardcoded values
-- [x] No var or heap-based variables used
-- [x] No for, while or do-while loops used
-- [x] Installation instructions in README
