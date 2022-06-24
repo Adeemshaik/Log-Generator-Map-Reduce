@@ -41,7 +41,7 @@ https://www.scala-sbt.org/1.x/docs/Setup.html.*
 
 To clone the repo use:
 ```console
-git clone https://github.com/niharjoshi/LogFileGenerator.git
+git clone https://github.com/Adeemshaik/Log-Generator-Map-Reduce.git
 ```
 
 Generate a log file through the provided log file generator (invoke the main method, no system arguments required):
